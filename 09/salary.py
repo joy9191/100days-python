@@ -30,28 +30,28 @@ class Manager(Employee):
 
 	def salary(self):
 		salary=15000
-		print '%s的月薪为%.2f'%(self.name,salary)
+		print '%s的月薪为%.2f元'%(self.name,salary)
 
 class Programmer(Employee):
 	"""docstring for Programmer"""
-	def __init__(self, name, duration):
+	def __init__(self, name, duration=0):
 		super(Programmer, self).__init__(name)
 		self.duration = duration
 
 	def salary(self):
 		salary=150*self.duration
-		print '%s的月薪为%.2f'%(self.name,salary)
+		print '%s的月薪为%.2f元'%(self.name,salary)
 
 
 class Salesman(Employee):
 	"""docstring for ClassName"""
-	def __init__(self, name, sale):
+	def __init__(self, name, sale=0):
 		super(Salesman, self).__init__(name)
 		self.sale = sale
 
 	def salary(self):
 		salary=1200+self.sale*0.05
-		print '%s的月薪为%.2f'%(self.name,salary)
+		print '%s的月薪为%.2f元'%(self.name,salary)
 		
 
 def main():
