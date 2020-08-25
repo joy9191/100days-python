@@ -6,9 +6,10 @@ from functools import wraps
 def logit(func):
 	@wraps(func)
 	def with_logging(*args, **kwargs):
+		# 这个函数里为啥要传不定参数
 		print(func.__name__+' was called')
-		# 这一句是返回了什么
-		return func(*args, **kwargs)
+		# 这一句是返回时执行了func函数
+		return func(*args, **c)
 	return with_logging
 
 def log(logfile='first.log'):
