@@ -2,6 +2,7 @@
 #coding=utf-8
 
 import random
+import MySQLdb
 
 def random_str():
 	seed_str='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()1234567890'
@@ -16,20 +17,33 @@ def remove_str(l):
 		for j in range(i+1,len(l)):
 			if l[i]==l[j]:
 				l[i]=-1
+	x=0
+	while x<len(l):
+		if l[x]==-1:
+			l.remove(l[x])
+			x-=1
+		else:
+			x+=1
+	return l
 
 def main():
 	res_list=[]
-	for x in range(200):
-		res_list.append(random_str())
+	db = MySQLdb.connect("127.0.0.1", "root", "", "test", charset='utf8' )
+	print '连接数据库成功'
+	conn = db.cursor()
+	for x in range(5):		
+		res_list.append(random_str())		
 	remove_str(res_list)
-	i=0
-	while i<len(res_list):
-		if res_list[i]==-1:
-			res_list.remove(res_list[i])
-			i-=1
-		else:
-			i+=1
 	print res_list
+	for i in res_list:
+		print i
+		coupon_sql = "insert into Coupons (coupon) values (%s)"
+		param = [i]
+		conn.execute(coupon_sql,param)
+	db.commit()
+	print '插入数据成功'
+	conn.close()
+	db.close()
 
 if __name__ == '__main__':
 	main()
