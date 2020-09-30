@@ -16,7 +16,7 @@ def log(logfile='first.log'):
 	def logging_decorator(func):
 		@wraps(func)
 		def wrapped_function(*args, **kwargs):
-			print(func.__name__+' was called')
+			print(func.__name__+' was called')9ikikmkiik
 			# 'a',追加，将内容写入到已有文件的末尾
 			with open(logfile,'a') as f:
 				f.write(func.__name__+' was called')

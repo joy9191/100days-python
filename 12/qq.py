@@ -1,7 +1,7 @@
 #!/usr/bin/python
 #coding=utf-8
 
-import re
+import re,time
 
 def main():
 	# python2中input()希望能够读取一个合法的 python 表达式，即你输入字符串的时候必须使用引号将它括起来例如”joy“，否则它会引发一个 SyntaxError,
@@ -21,5 +21,20 @@ def main():
 	if m1 and m2:
 		print '你输入的信息是有效的!'
 
+# 装饰器
+def run_time(func):
+    def wrapper(n):
+        start = time.time()
+        func(n)                  # 函数在这里运行
+        end = time.time()
+        cost_time = end - start
+        print "func three run time {}".format(cost_time)
+        return cost_time
+    return wrapper
+
+# @run_time
+def fun_one(n):
+    time.sleep(n)
+
 if __name__ == '__main__':
-	main()
+	print run_time(fun_one)(1)
