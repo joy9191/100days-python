@@ -1,11 +1,13 @@
 #!/usr/bin/python
 #coding=utf-8
 
-import urllib2
+import urllib2,urllib
+import logging
 from bs4 import BeautifulSoup
 from django.db import connection
 import random
 import MySQLdb
+import socket
 
 my_headers = [
     "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36",
@@ -27,58 +29,109 @@ def geturl(url):
     response = urllib2.Request(url)
     # 网站做了简单的反爬虫机制，请求体中未带浏览器信息会被拦截，直接get请求会被拦截报403，基于这一点，请求时添加User-Agent伪装成浏览器请求，就能访问了
     response.add_header('User-Agent', random.choice(my_headers))
-    response = urllib2.urlopen(response)
-    return response
+    try:
+        response = urllib2.urlopen(response,timeout=20)
+    except urllib2.HTTPError as error:
+        logging.error('Data not retrieved because %s\nURL: %s', error, url)
+    except urllib2.URLError as error:
+        if isinstance(error.reason, socket.timeout):
+            logging.error('socket timed out - URL %s', url)
+        else:
+            logging.error('some other error happened')
+    except socket.timeout as error: 
+        print 'socket timed out1'
+        logging.error('socket timed out - URL %s', url)    
+    else:
+        logging.info('Access successful.')
+        return response
 
 def getOushen(url):
     # 打开首页，获取文章链接
     r = geturl(url)
-    oushen = r.read()
+    if r is not None:
+        try:
+            oushen = r.read()
+        except urllib2.HTTPError as error:
+            logging.error('Data not retrieved because %s\nURL: %s', error, url)
+        except urllib2.URLError as error:
+            if isinstance(error.reason, socket.timeout):
+                logging.error('socket timed out - URL %s', url)
+            else:
+                logging.error('some other error happened')
+        except socket.timeout as error: 
+            print 'socket timed out2'
+            logging.error('socket timed out - URL %s', url)    
+        else:
+            logging.info('Access successful.')
+            res = BeautifulSoup(oushen, "html.parser").find_all('div','placeholder')
+            hrefList = []
+            for text in res:
+                href = text.find('a').get('href')
+                if href == None:
+                    continue
+                hrefList.append(href)
+            hrefList = set(hrefList)  # set中的元素是无序的，并且重复元素在set中自动被过滤
+            # print len(hrefList)
 
-    res = BeautifulSoup(oushen, "html.parser").find_all('div','placeholder')
-    hrefList = []
-    for text in res:
-        href = text.find('a').get('href')
-        if href == None:
-            continue
-        hrefList.append(href)
-    hrefList = set(hrefList)  # set中的元素是无序的，并且重复元素在set中自动被过滤
-    # print len(hrefList)
+            db = MySQLdb.connect("127.0.0.1", "root", "", "test", charset='utf8' )
+            print '连接数据库成功'
+            conn = db.cursor()
 
-    db = MySQLdb.connect("127.0.0.1", "root", "", "test", charset='utf8' )
-    print '连接数据库成功'
-    conn = db.cursor()
-
-    for href in hrefList:
-    	print href
-        result = geturl(href)
-        r = result.read()
-        html = BeautifulSoup(r, "html.parser")
-        title = html.find('h1', 'entry-title').get_text()
-        title.encode('utf8')
-        print title
-        # print "title" 
-        content = html.find('div','entry-content').find_all('span')
-        # print "content"
-        cont = []
-        for texts in content:
-            p = texts.get_text()
-            # p.encode('utf8')
-            cont.append(p)
-            p = ''.join(cont)
-        author = 'oushen'
-        blog_sql = 'insert into blogs_blogmsg (title,content,author) values (%s,%s,%s)'
-        param = [title, p, author]
-        conn.execute(blog_sql,param)
-    db.commit()
-    conn.close()
-    db.close()
+            for href in hrefList:
+                print href
+                result = geturl(href)
+                if result is not None:
+                    try:
+                        r = result.read()
+                    except urllib2.HTTPError as error:
+                        logging.error('Data not retrieved because %s\nURL: %s', error, href)
+                    except urllib2.URLError as error:
+                        if isinstance(error.reason, socket.timeout):
+                            logging.error('socket timed out - URL %s', href)
+                        else:
+                            logging.error('some other error happened')
+                    except socket.timeout as error: 
+                        print 'socket timed out3'
+                        logging.error('socket timed out - URL %s', href)    
+                    else:
+                        logging.info('Access successful.')
+                        html = BeautifulSoup(r, "html.parser")
+                        title = html.find('h1', 'entry-title').get_text()
+                        title.encode('utf8')
+                        print title
+                        # print "title" 
+                        content = html.find('div','entry-content').find_all('span')
+                        # print "content"
+                        cont = []
+                        for texts in content:
+                            p = texts.get_text()
+                            # p.encode('utf8')
+                            cont.append(p)
+                            p = ''.join(cont)
+                        author = 'oushen'
+                        blog_sql = 'insert into blogs_blogmsg (title,content,author) values (%s,%s,%s)'
+                        param = [title, p, author]
+                        conn.execute(blog_sql,param)
+                else:
+                    logging.error('%s URL is empty ', href)
+            db.commit()
+            conn.close()
+            db.close()
+    else:
+        logging.error('%s URL is empty ', url)
 
 def getAll(pages):
     for i in range(1,pages):
-        url = 'http://lazymovie.me/oushenwenji/page/'+str(i)
-        print url
-        getOushen(url)
+        try:
+            url = 'http://lazymovie.me/oushenwenji/page/'+str(i)
+            response = urllib2.Request(url)
+            response.add_header('User-Agent', random.choice(my_headers))
+            response = urllib2.urlopen(response, timeout=20)
+        except urllib2.HTTPError as error:
+            print error.code
+            break
+        else:
+            getOushen(url)
 
 if __name__ == '__main__':
-	getAll(10)
+	getAll(50)
