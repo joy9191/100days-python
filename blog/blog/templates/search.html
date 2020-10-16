@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="utf-8">
+        <title>搜索结果</title>
+    </head>
+    <body>
+        {% for r in result_list %}
+        <ul>
+            <li>
+                <a href="/blog?id={{r.id}}">{{r.title}}</a>
+            </li>
+        </ul>
+        {% empty %}
+        <span style="background: red">没有搜索到符合条件的文章</span>
+        {% endfor %}		
+	</body>
+</html>

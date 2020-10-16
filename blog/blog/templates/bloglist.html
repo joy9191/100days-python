@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>blog列表</title>
+		<style >
+			body{margin:10px}
+			li{list-style:none;}
+			.clearfix:after{
+				content: "";
+				display: table;
+				clear: both;
+			}
+			.btitle{float:left;}
+			.delblog{float:left;margin:0 10px;}
+			.pagination li{ width: 25px; height:25px; float:left; margin:0 5px; 
+			border: 1px solid #ccc; text-align:center; line-height:25px;}
+			.pagination li a{ text-decoration:none;}
+		</style>
+	</head>
+	<body>
+		<h1>我的布罗格</h1>
+		<input type="button" value="新增文章" onclick='location.href=("/addblog")'/>
+		<form method="get" action="/search">
+			{% csrf_token %}
+			<input type="search" placeholder="搜索" name="q" required>
+			<button type="submit">搜索</button>
+		  </form>
+		<ul>
+			{% for d in data %}
+			<li class="clearfix">
+				<div class="btitle">
+					<a href="/blog?id={{d.id}}">{{d.title}}</a>
+				</div>
+				<div class="delblog">
+					<form action="/delblog" method="POST">
+						{% csrf_token %}
+						<input type="hidden" name="bid" value="{{d.id}}">
+						<input type="submit" name="delete" value="删除">
+					</form>
+				</div>
+				<div class="editblog">
+					<a href="/editblog?id={{d.id}}">修改</a>
+				</div>
+			</li>
+			{% endfor %}
+		</ul>
+		<nav aria-label="Page navigation">
+			<div class="pagination">
+				<ul class="pagination clearfix">
+				{% if data.has_previous %}
+					<li><a href="/list/{{data.previous_page_number}}" aria-label="Previous">
+						<span aria-hidden="true">&laquo;</span></a></li>
+				{% endif %}
+	
+				{% for num in data.paginator.page_range%}
+					{%if pindex == data.number%}
+						<li><a href="">{{ num }}</a></li>
+					{%else%}
+						<li><a href="/list/{{num}}">{{ num }}</a></li>
+					{%endif%}
+				 {% endfor %}
+	
+				 {% if data.has_next %}
+					 <li><a href="/list/{{data.next_page_number}}" aria-label="Next">
+						  <span aria-hidden="true">&raquo;</span></a></li>
+				  {% endif %}
+				   </ul>
+			</div>
+		</nav>
+		{% if msg %}
+		<span style="background: red">{{ msg }}</span>	
+		{% endif %}
+	</body>
+</html>
