@@ -94,7 +94,7 @@ python -m playwright codegen --target python -o login.py https://jd.com --save-s
 这样py代码中也生成了保存信息到本地的功能代码，适合于更新帐号信息，然后录制操作只用录制登陆后的页面即可，如下命令，直接读取已登陆的状态，然后就能在已登陆状态下录制：
 
 ```csharp
-python -m playwright codegen --target python -o run.py https://jd.com --load-storage jd
+python -m playwright codegen -o run.py https://jd.com --load-storage jd
 ```
 
 ## 执行
