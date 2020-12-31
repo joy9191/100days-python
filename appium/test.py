@@ -34,9 +34,9 @@ class TestDM(unittest.TestCase):
 		print("dm开本")
 		# 1+1演示模式
 		time.sleep(3)
-		self.driver_list[0].close_app()
-		self.driver_list[0].launch_app()
-		time.sleep(3)
+		# self.driver_list[0].close_app()
+		# self.driver_list[0].launch_app()
+		# time.sleep(3)
 		# self.driver.find_element_by_id("com.android.permissioncontroller:id/permission_allow_always_button").click()
 		print("ok")
 		time.sleep(2)
@@ -211,12 +211,9 @@ class TestDM(unittest.TestCase):
 		self.driver_list[1].find_element_by_id("com.mg.scriptkilling:id/x").click()
 		time.sleep(2)
 
-		# self.driver_list[1].find_element_by_xpath("//*[@resource-id='com.mg.scriptkilling:id/player_recyclerView']/android.view.ViewGroup[2]").click()
-		# time.sleep(5)
 		for i in range(1, 7):
 			print(i)
 			self.driver_list[1].find_element_by_xpath("//*[@resource-id='com.mg.scriptkilling:id/player_recyclerView']/android.view.ViewGroup[{0}]".format(i)).click()
-			# self.driver_list[1].find_element_by_id("com.mg.scriptkilling:id/profile_image")[i].click()
 			time.sleep(2)
 			self.driver_list[1].find_element_by_xpath("//*[@resource-id='com.mg.scriptkilling:id/player_vote_rv']/android.view.ViewGroup[2]").click()
 			time.sleep(2)
