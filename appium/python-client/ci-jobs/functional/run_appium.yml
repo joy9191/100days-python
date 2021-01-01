@@ -1,0 +1,32 @@
+steps:
+- task: NodeTool@0
+  inputs:
+    versionSpec: '11.x'
+  displayName: Install Node 11.x
+- script: npm install -g appium@beta --chromedriver_version='2.44'
+  displayName: Install appium
+- script: npm install -g opencv4nodejs
+  condition: eq('${{ parameters.opencv }}', true)
+  displayName: Install opencv4nodejs
+- task: UsePythonVersion@0
+  inputs:
+    versionSpec: '3.x'
+- script: brew install ffmpeg
+  displayName: Resolve dependencies (Appium server)
+- script: python setup.py install
+  displayName: Install python language bindings for Appium
+- script: |
+    pip install pipenv
+    pipenv lock --clear
+    pipenv install --system
+  displayName: Resolve dependencies (Python)
+- script: |
+    git --no-pager log -n1
+    python --version
+    ffmpeg -version
+    appium --version
+    node --version
+  displayName: Check versions
+- script: nohup appium --relaxed-security > appium_log.txt &
+  condition: ne('${{ parameters.dont_run_appium }}', true)
+  displayName: Run Appium in background

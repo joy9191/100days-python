@@ -1,0 +1,28 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pre-commit = "~=2.6"
+
+[packages]
+selenium = "~=3.141"
+
+autopep8 = "~=1.5"
+
+pytest = "~=6.0"
+pytest-cov = "~=2.10"
+
+tox = "~=3.19"
+tox-travis = "~=0.12"
+
+httpretty = "~=1.0"
+python-dateutil = "~=2.8"
+mock = "~=4.0"
+
+pylint = "~=2.5"
+astroid = "~=2.4"
+isort = "~=4.3"  # TODO Can be 5> when pylint uses isort 5>
+
+mypy = "==0.782"
