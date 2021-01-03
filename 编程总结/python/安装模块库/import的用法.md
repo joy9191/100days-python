@@ -17,6 +17,7 @@ def printSelf():
     print('In b')
 ```
 此时在test目录下，运行`python a.py`命令，正常运行且打印出`In b`，说明上述写法没问题。
+之前用pip3安装了appium后，`import appium`时报`No module name appium`，是由于安装的路径在`/Library/Python/3.7/site-packages`下，而这个路径没有在sys.path中，所以在其他路径下执行py文件会报错，而在`/Library/Python/3.7/site-packages`路径下直接import appium才不报错，是因为python运行文件所在目录的文件。
 用上述方法导入原有的sys.path中的库没有问题。但是，最好不要用上述方法导入同目录下的文件！因为这**可能会出错**。演示这个错误需要用到import语句的第二种写法，所以先来学一学import的第二种写法。
 在test目录下新建目录step，在step中新建文件c.py
 
