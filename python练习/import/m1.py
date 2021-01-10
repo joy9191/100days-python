@@ -2,5 +2,5 @@
 # coding=utf-8
 
 import os
-import m2
-m2.printSelf()
+from branch import m3
+m3.printSelf()
