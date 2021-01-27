@@ -2,30 +2,42 @@
 # coding=utf-8
 
 import unittest
+import os
 from appium import webdriver
 import devices
 import time
 import multiprocessing
 import threading
 
+def connectAdb():
+	os.system('adb connect 192.168.137.144:5554')
+	os.system('adb connect 192.168.137.221:5555')
+	d=os.system('adb devices')
+	print("设备列表")
+	print(d)
+
 class TestDM(unittest.TestCase):
 
 	def setUp(self):
-		self.driver_port = [[4723,'R9WNA1RVQYJ'],[4729,'R9WN915RAVJ']]
+		# self.driver_port = [[4723,'R9WNA1RVQYJ'],[4729,'R9WN915RAVJ']]
+		self.driver_port = [[4723,'192.168.137.144:5554'],[4729,'192.168.137.221:5555']]
 		self.driver_list=[]
 		for i in range(2):
 			desired_caps = {}
 			desired_caps['platformName'] = 'Android'
-			desired_caps['deviceName'] = 'Android Emulator'
+			desired_caps['deviceName'] = 'Android Pad'
 			desired_caps['udid'] = self.driver_port[i][1]
 			desired_caps['appPackage'] = 'com.mg.scriptkilling'
 			desired_caps['appActivity'] = 'com.mg.scriptkilling.ui.login.EnterRoomActivity'
 			desired_caps['unicodeKeyboard'] = True #使用unicode输入法
 			desired_caps['resetKeyboard'] = True  #重置输入法到初始状态
 			desired_caps['noReset'] = True  #启动app时不要清除app里的原有的数据
+			print(desired_caps)
 			self.driver = webdriver.Remote('http://localhost:{0}/wd/hub'.format(self.driver_port[i][0]), desired_caps)
+			print(self.driver)
 			self.driver.implicitly_wait(10)
 			self.driver_list.append(self.driver)
+		print("打印")
 		print(self.driver_list)
 		print(len(self.driver_list))
 		print("start case test")
@@ -245,4 +257,5 @@ class TestDM(unittest.TestCase):
 
 
 if __name__ == '__main__':
+	connectAdb()
 	unittest.main()
