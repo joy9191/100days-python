@@ -118,7 +118,7 @@ c.printSelf()
 可以是可以，但。。不能用`python a.py`命令，而需要`python -m test.a`
 python -m中-m指令是为了让Python预先import你要的package或module给你，然后再执行script。
 
-##import的其他常用方法
+## import的其他常用方法
 ### 1. import moudle_name as alias。
 有些module_name比较长，之后写它时较为麻烦，或者module_name会出现名字冲突，可以用as来给它改名，如import numpy as np。
 ### 2. from module_name import function_name, variable_name, class_name。
