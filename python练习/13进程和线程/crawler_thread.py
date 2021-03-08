@@ -12,13 +12,14 @@ import time
 
 class DownloadHanlder(Thread):
 
-    def __init__(self, url, q):
+    def __init__(self, q):
         super(DownloadHanlder, self).__init__()
         self.url = url
         self.q = q
 
     def run(self):
-        result = urllib.urlopen(self.url)
+        url = self.q.get()
+        result = urllib.urlopen(url)
         r = result.read()
         title = BeautifulSoup(r, "html.parser").find('header', 'title').find('h1').get_text()
         print "title" + title
@@ -44,15 +45,17 @@ def addCnbeta():
             href = 'http:' + href
         hrefList.append(href)
     hrefList = set(hrefList)  # set中的元素是无序的，并且重复元素在set中自动被过滤
-    hrefList=list(hrefList)
-    hrefList.sort()
+    hrefList=list(hrefList) # set转list，并排序
+    hrefList.sort() 
     html.close()
     print len(hrefList)
 
     start=time.time()
+    workQueue = queue.Queue(10)
     threads=[]
-    for hrefs in hrefList:
-        t=DownloadHanlder(hrefs,queue)
+    for href in hrefList:
+        workQueue.put(href)
+        t=DownloadHanlder(workQueue)
         t.start()
         threads.append(t)
         t.join()
