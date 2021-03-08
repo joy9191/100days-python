@@ -22,7 +22,8 @@ class DownloadHanlder(Thread):
         result = urllib.urlopen(url)
         r = result.read()
         title = BeautifulSoup(r, "html.parser").find('header', 'title').find('h1').get_text()
-        print "title" + title
+        # print "title" + title
+        print("title" + title)
         content = BeautifulSoup(r, "html.parser").find('div', 'cnbeta-article-body').find_all('p')
         for texts in content:
             p = texts.get_text()
@@ -48,7 +49,7 @@ def addCnbeta():
     hrefList=list(hrefList) # set转list，并排序
     hrefList.sort() 
     html.close()
-    print len(hrefList)
+    print(len(hrefList))
 
     start=time.time()
     workQueue = queue.Queue(10)
@@ -58,10 +59,11 @@ def addCnbeta():
         t=DownloadHanlder(workQueue)
         t.start()
         threads.append(t)
+    for t in threads:
         t.join()
-    print len(threading.enumerate())
+    print ("退出主线程")
     end=time.time()
-    print 'Execution time: ', (end - start), 's'
+    print('Execution time: ', (end - start), 's')
 
 
 if __name__ == '__main__':
