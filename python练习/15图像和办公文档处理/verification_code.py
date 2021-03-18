@@ -1,8 +1,8 @@
 #!/usr/bin/python
 # coding=utf-8
 
-import sys
-sys.path.append(r'D:\Users\KLYG\Anaconda3\Lib\site-packages')
+# import sys
+# sys.path.append(r'D:\Users\KLYG\Anaconda3\Lib\site-packages')
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
 import random
@@ -25,15 +25,23 @@ height = 60
 image = Image.new('RGB', (width, height), (255, 255, 255))
 # 创建Font对象:
 font = ImageFont.truetype('C:/Windows/Fonts/Arial.ttf', 36)
+# 如果我们想要对图片进行操作，先要获取图片对象，再调用方法
 # 创建Draw对象:
 draw = ImageDraw.Draw(image)
 # 填充每个像素:
 for x in range(width):
     for y in range(height):
         draw.point((x, y), fill=rndColor())
-# 输出文字:
+# 存储随机验证码
+codes=''
+# 填充文字:
 for t in range(4):
-    draw.text((60 * t + 10, 10), rndChar(), font=font, fill=rndColor2())
+	rndcode=rndChar()
+	draw.text((60 * t + 10, 10), rndcode, font=font, fill=rndColor2())
+	codes+=rndcode
+print codes
+
 # 模糊:
 image = image.filter(ImageFilter.BLUR)
+image.show()
 image.save('code.jpg', 'jpeg')
