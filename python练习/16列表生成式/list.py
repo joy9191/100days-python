@@ -1,6 +1,7 @@
 #!/usr/bin/python
 # coding=utf-8
 
+# 用股票价格大于100元的股票构造一个新的字典
 prices = {
     'AAPL': 191.88,
     'GOOG': 1186.96,
