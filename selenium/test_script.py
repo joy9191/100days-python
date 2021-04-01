@@ -41,7 +41,7 @@ class TestScript:
 
         # 剧本状态
         # _driver.find_elements_by_class_name('el-form-item')[1].click()
-    driver.quit()
+        _driver.quit()
 
 
 class TestApplyScript:
@@ -61,13 +61,49 @@ class TestApplyScript:
         print('申请剧本管理')
         _driver = self.driver
         # 查询&筛选
-        # 剧本名称
+        # 剧本状态
         _driver.find_elements_by_class_name('el-form-item')[3].click()
         time.sleep(5)
-        d=_driver.find_elements_by_class_name('el-select-dropdown')[0].find_element_by_tag_name('ul').find_element_by_xpath("//span[contains('待处理')]").click()
-        print(d)
-        # _driver.find_elements_by_class_name('el-form-item')[3].find_element_by_class_name('el-input__inner').send_keys('mumu')
-        # _driver.find_elements_by_class_name('el-form-item')[4].click()
+        _driver.find_elements_by_class_name('el-select-dropdown')[2].find_element_by_tag_name('ul').find_elements_by_tag_name('li')[0].click()
         time.sleep(5)
-        # search_result=_driver.find_element_by_class_name('el-table__body-wrapper').find_elements_by_class_name('el-table__row')[0].find_element_by_class_name('el-table_1_column_2').find_element_by_class_name('cell')
-        # assert search_result.text == '582'
+        tr = _driver.find_element_by_tag_name('tbody').find_elements_by_tag_name('tr')
+        for i in tr:
+            scrpit_status = i.find_element_by_class_name('el-table_2_column_18').find_element_by_class_name('cell').find_element_by_tag_name('div')
+            assert scrpit_status.text == '待处理'
+        time.sleep(5)
+        _driver.quit()
+
+
+class TestScriptRecord:
+    driver = webdriver.Chrome('D:/Chromedriver/chromedriver.exe')
+    driver.get('http://larp.api.mgtv.com/oss')
+    driver.maximize_window()
+
+    # 登录
+    driver.find_element_by_name('form-username').send_keys('18674831947')
+    driver.find_element_by_id('form-password').send_keys('12345678')
+    driver.find_element_by_class_name("m-b").click()
+    time.sleep(5)
+    driver.find_element_by_link_text('剧本演示记录').click()
+    time.sleep(5)
+
+    def test_script_record(self):
+        print('剧本演示记录')
+        _driver = self.driver
+        # 查询&筛选
+        _driver.find_elements_by_class_name('el-form-item')[0].click()
+        _driver.find_elements_by_class_name('el-form-item')[0].find_element_by_class_name('el-input__inner').send_keys(
+            '18674831947')
+        time.sleep(5)
+
+        search_result = \
+            _driver.find_element_by_class_name('el-table__body-wrapper').find_element_by_class_name('el-table__row').find_elements_by_tag_name('td')[1].find_element_by_class_name('cell')
+        print(search_result)
+        assert search_result.text == '周玖怡'
+        time.sleep(5)
+
+    def test_demo_script(self):
+        print('演示剧本管理')
+        _driver = self.driver
+        # 添加剧本
+        _driver.find_element_by_class_name('global__button--primary')
