@@ -1,0 +1,28 @@
+*** Settings ***
+Library           Selenium2Library
+
+*** Test Cases ***
+进入首页
+    Open Browser    https://lingxi.mgtv.com/test/larp/index.html#/home    chrome
+    Set Window Size    375    812
+
+进入我的页面
+    Click Element    Xpath=//div[@id='app']/div[2]/div[4]
+    Capture Page Screenshot
+    Comment    判断是否进入我的页面
+    ${gv}    Get Title
+    Should Be Equal As Strings    ${gv}    我的
+
+登录
+    Click Element    xpath=//div[@class='mine__content-user-unlogin']/div/span
+    sleep    5
+    Click Element    xpath=//div[@class='login-tab']/span[@class='btn']
+    sleep    2
+    Input Text    xpath=//input[@type='email']    15388043397
+    Input Password    xpath=//input[@type='password']    111111
+    Click Element    xpath=//label/i
+    Click Element    xpath=//a[@class='mgui-btn']
+    sleep    5
+    Comment    判断是否登录成功
+    ${gv}    Get Text    xpath=//div[@class='mine__content-user-logined']/div
+    Should Be Equal As Strings    ${gv}    15388043397
