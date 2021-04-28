@@ -1,0 +1,190 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+    
+  列表生成式 - PythonJoy
+  
+  </title>
+ <meta name="description" content="">
+ <link href="atom.xml" rel="alternate" title="PythonJoy" type="application/atom+xml">
+    <link rel="stylesheet" href="asset/css/foundation.min.css" />
+    <link rel="stylesheet" href="asset/css/docs.css" />
+
+    <script src="asset/js/vendor/modernizr.js"></script>
+    <script src="asset/js/vendor/jquery.js"></script>
+    <script src="asset/highlightjs/highlight.pack.js"></script>
+    <link href="asset/highlightjs/styles/github.css" media="screen, projection" rel="stylesheet" type="text/css">
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+  </head>
+  <body class="antialiased hide-extras">
+    
+    <div class="marketing off-canvas-wrap" data-offcanvas>
+      <div class="inner-wrap">
+
+
+<nav class="top-bar docs-bar hide-for-small" data-topbar>
+
+<div id="header">
+    <h1><a href="index.html">PythonJoy</a></h1>
+</div>
+
+</nav>
+        <nav class="tab-bar show-for-small">
+  <a href="javascript:void(0)" class="left-off-canvas-toggle menu-icon">
+    <span> &nbsp; PythonJoy</span>
+  </a>
+</nav>
+
+<aside class="left-off-canvas-menu">
+      <ul class="off-canvas-list">
+      <li><a href="index.html">Home</a></li>
+      
+        <li class="divider"></li>
+        <li><label>Python</label></li>
+
+          
+            <li><a title="列表生成式" href="16196181446355.html">列表生成式</a></li>
+          
+            <li><a title="网络编程" href="16196181446446.html">网络编程</a></li>
+          
+            <li><a title="面向对象 #" href="16196181446529.html">面向对象 #</a></li>
+          
+
+      
+      </ul>
+    </aside>
+
+<a class="exit-off-canvas" href="#"></a>
+
+        <section id="main-content" role="main" class="scroll-container">
+
+          <div class="row">
+            <div class="large-3 medium-3 columns">
+              <div class="hide-for-small">
+                <div class="sidebar">
+                <nav>
+                  <ul id="side-nav" class="side-nav">
+
+                    
+                      <li class="side-title"><span>Python</span></li>
+                        
+                          <li><a title="列表生成式" href="16196181446355.html">列表生成式</a></li>
+                        
+                          <li><a title="网络编程" href="16196181446446.html">网络编程</a></li>
+                        
+                          <li><a title="面向对象 #" href="16196181446529.html">面向对象 #</a></li>
+                        
+
+                    
+                  </ul>
+                </nav>
+                </div>
+              </div>
+            </div>
+            <div class="large-9 medium-9 columns">
+
+ <div class="markdown-body">
+<h1>列表生成式</h1>
+
+<p>注释的部分6行代码，列表生产式的写法只需要1行，简洁明了，服~</p>
+
+<p>语法和思维需要稍微的转变，需要生成的元素放在最前面，后面跟for循环；for循环后还可以加条件判断作为过滤条件</p>
+
+<pre><code class="language-python">def prime_num(num):
+    # num_p=2
+    # prime_list=[]
+    # while num_p&lt;num:
+    #   if is_prime(num_p):
+    #       prime_list.append(num_p)
+    #   num_p+=1
+    # 下面是列表生成式的写法
+    prime_list = [i for i in range(2,num) if is_prime(i)]
+    print(prime_list)
+    print(&quot;_______________&quot;)
+    return prime_list
+</code></pre>
+
+<p>还可以使用两层循环，例如生成全排列</p>
+
+<pre><code class="language-python">&gt;&gt;&gt; [m + n for m in &#39;ABC&#39; for n in &#39;XYZ&#39;]
+[&#39;AX&#39;, &#39;AY&#39;, &#39;AZ&#39;, &#39;BX&#39;, &#39;BY&#39;, &#39;BZ&#39;, &#39;CX&#39;, &#39;CY&#39;, &#39;CZ&#39;]
+</code></pre>
+
+
+</div>
+
+<br /><br />
+<hr />
+
+<div class="row clearfix">
+  <div class="large-6 columns">
+	<div class="text-left" style="padding:15px 0px;">
+		
+	        <a href="16196181446313.html"  title="Previous Post: Python + Selenium基本操作">&laquo; Python + Selenium基本操作</a>
+	    
+	</div>
+  </div>
+  <div class="large-6 columns">
+	<div class="text-right" style="padding:15px 0px;">
+		
+	        <a href="16196181446403.html" 
+	        title="Next Post: 1、Windows环境下Python代码的文件路径问题">1、Windows环境下Python代码的文件路径问题 &raquo;</a>
+	    
+	</div>
+  </div>
+</div>
+
+<div class="row">
+<div style="padding:0px 0.93em;" class="share-comments">
+
+</div>
+</div>
+<script type="text/javascript">
+	$(function(){
+		var currentURL = '16196181446355.html';
+		$('#side-nav a').each(function(){
+			if($(this).attr('href') == currentURL){
+				$(this).parent().addClass('active');
+			}
+		});
+	});
+</script>  
+</div></div>
+
+
+<div class="page-bottom">
+  <div class="row">
+  <hr />
+  <div class="small-9 columns">
+  <p class="copyright">Copyright &copy; 2015
+Powered by <a target="_blank" href="http://www.mweb.im">MWeb</a>,&nbsp; 
+Theme used <a target="_blank" href="http://github.com">GitHub CSS</a>.</p>
+  </div>
+  <div class="small-3 columns">
+  <p class="copyright text-right"><a href="#header">TOP</a></p>
+  </div>
+   
+  </div>
+</div>
+
+        </section>
+      </div>
+    </div>
+    
+    
+    <script src="asset/js/foundation.min.js"></script>
+    <script src="asset/js/foundation/foundation.offcanvas.js"></script>
+    <script>
+      $(document).foundation();
+
+     
+    </script>
+    
+
+
+  </body>
+</html>

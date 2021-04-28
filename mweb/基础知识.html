@@ -1,0 +1,167 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+    
+  基础知识 - PythonJoy
+  
+  </title>
+ <meta name="description" content="">
+ <link href="atom.xml" rel="alternate" title="PythonJoy" type="application/atom+xml">
+    <link rel="stylesheet" href="asset/css/foundation.min.css" />
+    <link rel="stylesheet" href="asset/css/docs.css" />
+
+    <script src="asset/js/vendor/modernizr.js"></script>
+    <script src="asset/js/vendor/jquery.js"></script>
+    <script src="asset/highlightjs/highlight.pack.js"></script>
+    <link href="asset/highlightjs/styles/github.css" media="screen, projection" rel="stylesheet" type="text/css">
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+  </head>
+  <body class="antialiased hide-extras">
+    
+    <div class="marketing off-canvas-wrap" data-offcanvas>
+      <div class="inner-wrap">
+
+
+<nav class="top-bar docs-bar hide-for-small" data-topbar>
+
+<div id="header">
+    <h1><a href="index.html">PythonJoy</a></h1>
+</div>
+
+</nav>
+        <nav class="tab-bar show-for-small">
+  <a href="javascript:void(0)" class="left-off-canvas-toggle menu-icon">
+    <span> &nbsp; PythonJoy</span>
+  </a>
+</nav>
+
+<aside class="left-off-canvas-menu">
+      <ul class="off-canvas-list">
+      <li><a href="index.html">Home</a></li>
+      
+        <li class="divider"></li>
+        <li><label>Python</label></li>
+
+          
+            <li><a title="列表生成式" href="16196181446355.html">列表生成式</a></li>
+          
+            <li><a title="网络编程" href="16196181446446.html">网络编程</a></li>
+          
+            <li><a title="面向对象 #" href="16196181446529.html">面向对象 #</a></li>
+          
+
+      
+      </ul>
+    </aside>
+
+<a class="exit-off-canvas" href="#"></a>
+
+        <section id="main-content" role="main" class="scroll-container">
+
+          <div class="row">
+            <div class="large-3 medium-3 columns">
+              <div class="hide-for-small">
+                <div class="sidebar">
+                <nav>
+                  <ul id="side-nav" class="side-nav">
+
+                    
+                      <li class="side-title"><span>Python</span></li>
+                        
+                          <li><a title="列表生成式" href="16196181446355.html">列表生成式</a></li>
+                        
+                          <li><a title="网络编程" href="16196181446446.html">网络编程</a></li>
+                        
+                          <li><a title="面向对象 #" href="16196181446529.html">面向对象 #</a></li>
+                        
+
+                    
+                  </ul>
+                </nav>
+                </div>
+              </div>
+            </div>
+            <div class="large-9 medium-9 columns">
+
+ 
+
+
+	
+		<div class="markdown-body">
+		<h1>1、Windows环境下Python代码的文件路径问题</h1>
+
+		<p>在python程序里面我们经常需要对文件进行操作，Windows下的文件目录路径使用反斜杠“\”来分隔。但是，和大多数语言一样，Python代码里面，反斜杠“\”是转义符，例如“\n”表示回车、“\t”表示制表符等等。这样，如果继续用windows习惯使用“\”表示文件路径，就会产生歧义。</p>
+
+<p>例如：“c:\test.txt”这表示c盘根目录下的一个文件，还是表示一个字符串呢？因为“\t”也可以解释为制表符。如果让我们人来判断，这当然是一个很简单的问题。但是机器就无法做出正确的判断了，只有没有歧义的代码机器才会正确执行。</p>
+
+<p>解决办法，采用下面任何一种书写形式均可：</p>
+
+<ul>
+<li>使用斜杠“/”: <code>&quot;c:/test.txt&quot;</code><code>… 不用反斜杠就没法产生歧义了</code><code></code></li>
+<li>将反斜杠符号转义: <code>&quot;</code><code>c:\\test.txt</code><code>&quot;… 因为反斜杠是转义符，所以两个&quot;\\&quot;就表示一个反斜杠符号</code> </li>
+<li>使用Python的raw string: <code>r&quot;c:\test.txt&quot; … python下在字符串前面加上字母r，表示后面是一个原始字符串</code>raw string，不过raw string主要是为正则表达式而不是windows路径设计的，所以这种做法尽量少用，可能会出问题。</li>
+</ul>
+
+
+		</div>
+	
+
+ 
+	
+
+ 
+	
+
+ 
+	
+
+ 
+	
+
+ 
+	
+
+ 
+	
+
+  
+  
+</div></div>
+
+
+<div class="page-bottom">
+  <div class="row">
+  <hr />
+  <div class="small-9 columns">
+  <p class="copyright">Copyright &copy; 2015
+Powered by <a target="_blank" href="http://www.mweb.im">MWeb</a>,&nbsp; 
+Theme used <a target="_blank" href="http://github.com">GitHub CSS</a>.</p>
+  </div>
+  <div class="small-3 columns">
+  <p class="copyright text-right"><a href="#header">TOP</a></p>
+  </div>
+   
+  </div>
+</div>
+
+        </section>
+      </div>
+    </div>
+    
+    
+    <script src="asset/js/foundation.min.js"></script>
+    <script src="asset/js/foundation/foundation.offcanvas.js"></script>
+    <script>
+      $(document).foundation();
+
+     
+    </script>
+    
+
+
+  </body>
+</html>
