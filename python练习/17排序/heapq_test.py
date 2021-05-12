@@ -11,8 +11,10 @@ list2 = [
     {'name': 'YHOO', 'shares': 45, 'price': 16.35},
     {'name': 'ACME', 'shares': 75, 'price': 115.65}
 ]
-h1=heapq.heappush(list1,89)
+h1=heapq.heappush(list1,86)
+heapq.heapify(list1)
 print(list1)
+print(type(list1))
 print(heapq.nlargest(3, list1))
 print(heapq.nsmallest(3, list1))
 print(heapq.nlargest(2, list2, key=lambda x: x['price']))
