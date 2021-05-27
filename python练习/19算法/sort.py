@@ -3,7 +3,7 @@
 
 def select_sort(items, comp=lambda x, y: x < y):
     """简单选择排序"""
-    items = items[:]  # items[:]创建原始列表的副本,它不引用同一个列表对象。因此，更改li[：]创建的副本不会有更改原始列表的风险。
+    items = items[:]  # items[:]创建原始列表的副本,它不引用同一个列表对象。因此，更改items[:]创建的副本不会有更改原始列表的风险。
     print(items)
     for i in range(len(items) - 1):
         min_index = i
