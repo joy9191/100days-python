@@ -24,7 +24,8 @@ my_headers = [
 openId_list=['oBuia6Tgz66NIKXpjhDBsu3itJ69','oBuia6Tgz66NIKXpjhDBsu35tJc8']
 
 url='http://code52828.yulin02.com/mobile/userVote'
-headers={'User-Agent':random.choice(my_headers),'Content-Type':'application/json'}
+# headers={'User-Agent':random.choice(my_headers),'Content-Type':'application/json'}
+headers=dict('User-Agent'=random.choice(my_headers),'Content-Type'='application/json')
 for i in openId_list:
 	params={'playerId':'14793','voteId':'181','openId':i}
 	params = json.dumps(params)
