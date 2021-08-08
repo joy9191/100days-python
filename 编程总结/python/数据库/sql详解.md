@@ -65,3 +65,11 @@ select stu_name from tb_student where stu_birth=(
 
 5）连接查询
 inner join
+
+
+MySQL中支持多种类型的运算符，包括：算术运算符（+、-、*、/、%）、比较运算符（=、<>、<=>、<、<=、>、>=、BETWEEN...AND...、IN、IS NULL、IS NOT NULL、LIKE、RLIKE、REGEXP）、逻辑运算符（NOT、AND、OR、XOR）和位运算符（&、|、^、~、>>、<<），我们可以在DML中使用这些运算符处理数据。
+
+在查询数据时，可以在SELECT语句及其子句（如WHERE子句、ORDER BY子句、HAVING子句等）中使用函数，这些函数包括字符串函数、数值函数、时间日期函数、流程函数等，如下面的表格所示。
+
+5、索引
+索引是关系型数据库中用来提升查询性能最为重要的手段。
