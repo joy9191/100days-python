@@ -19,7 +19,6 @@ class DownloadHanlder(Thread):
 
     def run(self):
         url = self.q.get()
-        print self.q.empty()
         if not self.q.empty():
             result = urllib.urlopen(url)
             r = result.read()
@@ -28,6 +27,9 @@ class DownloadHanlder(Thread):
             content = BeautifulSoup(r, "html.parser").find('div', 'cnbeta-article-body').find_all('p')
             for texts in content:
                 p = texts.get_text()
+
+def urlManage():
+    pass
             
 def addCnbeta():
     html = urllib.urlopen('https://www.cnbeta.com/')   # 抓取网页的源码
