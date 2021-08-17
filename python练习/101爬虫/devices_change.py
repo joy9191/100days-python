@@ -25,6 +25,9 @@ headers={'User-Agent':random.choice(my_headers),'Content-Type':'application/json
 
 merchant_uuid = ''
 agent_uuid = ''
+url= 'http://larp.api.mgtv.com/cms/auth/login'
+key_login =dict(passport='18674831947',password='12345678')
+requests.post()
 def auth_merchant(devices_id,agent_uuid):
 	url = 'http://larp.api.mgtv.com/cms/device/save'
 	key_dict=dict(device_id=devices_id,agent_uuid=agent_uuid,act='update',sn_num=devices_id,device_name='')
