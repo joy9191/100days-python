@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c303344-41e7-4c1e-a177-a867d3325690" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/blog/blogs/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/blogs/migrations/0002_auto_20200925_2219.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/blogs/migrations/0003_auto_20201011_2151.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/crawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/crawler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../编程总结/python/安装模块库/mainlib.db" beforeDir="false" afterPath="$PROJECT_DIR$/../../编程总结/python/安装模块库/mainlib.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../表达/读书笔记/构建高性能web站点/3.2CPU并发计算.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../表达/读书笔记/构建高性能web站点/3.2CPU并发计算.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -207,10 +205,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1864139" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
