@@ -15,4 +15,4 @@
 * 缓存动态内容：
 问题1：开了缓存模式，但没使用动态内容本身的缓存，那这个缓存使用的是什么缓存？
 * 控制有效期：在HTTP响应头中追加Expires标记，设置缓存时间；假如动态内容没有输出Expires标记，如果包含另一个标记Last-Modified，则服务器缓存区会使用默认最大缓存时间CacheMaxExpire；如果这两个标记都没有，则读取CacheIgnoreNoLastMod的设置，如果是开启则不缓存动态内容，否则将当前时间记录为Last-Modified，并且使用默认最大缓存时间。
-跳过缓存：1）设置Expires=0；2）设置CacheIgnoreHeaders
+跳过缓存：1）设置Expires=0；2）设置CacheIgnoreHeaders                                                                            
