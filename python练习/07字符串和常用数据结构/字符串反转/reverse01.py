@@ -11,6 +11,7 @@ print(a0)
 a1=''.join(reversed(n))
 print(a1)
 
+# reverse是列表的方法
 c = list(n)
 c.reverse()
 a2 = ''.join(c)
