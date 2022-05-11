@@ -9,7 +9,6 @@ def three_figure():
 					print(100*i+10*j+k)	
 	print(n)
 
-
 def bonus():
 	profit = int(input("净利润："))
 	arr = [1000000,600000,400000,200000,100000,0]
@@ -20,7 +19,6 @@ def bonus():
 			b += (profit-arr[i])*rate[i]
 			print((profit-arr[i])*rate[i])
 			profit = arr[i]
-			print(b)
 	return b
 
 
