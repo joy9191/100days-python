@@ -32,8 +32,30 @@ def nums():
 	            print(x)
 
 
+def days():
+	year = int(input("year:\n"))
+	month = int(input("mouth:\n"))
+	day = int(input("day:\n"))
+
+	
+	months = (0,31,59,90,120,151,181,212,243,273,304,334)
+	if 0<month<=12:
+		day1=months[month-1]
+	else:
+		print("data error")
+
+	leap = 0
+	if (year % 4 == 0) or (year % 400 == 0) and (year % 100 != 0):
+		leap = 1
+	if (leap == 1) and (month > 2):
+		day1 +=1
+	
+	print(day1+day)
+
+
 
 if __name__ == '__main__':
 	# three_figure()
 	# print(bonus())
-	nums()
+	# nums()
+	days()
