@@ -1,7 +1,499 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c303344-41e7-4c1e-a177-a867d3325690" name="Default Changelist" comment="" />
+    <list default="true" id="9c303344-41e7-4c1e-a177-a867d3325690" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/Python3.import报错找不到这个模块.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16089829103897.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16196181446213.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16196181446260.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16196181446313.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16196181446355.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16196181446403.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16196181446446.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16196181446488.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16196181446529.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16196181446571.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16196181446619.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16196181446655.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16196181446693.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16196181446731.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16196181446773.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16196181446812.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16196181446853.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16196181446893.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16203949108365.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16203949108489.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16203949108527.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770204094.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770204171.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770204195.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770204217.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770204239.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770204262.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770204284.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770204308.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770204330.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770204353.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770204377.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770204430.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770204458.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770204487.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770204518.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770204550.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770204584.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770204616.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770204649.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770204677.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770204710.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770204744.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770204776.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770204810.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770204845.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770204875.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770204900.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770204927.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770204961.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770204998.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770205034.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770205064.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770205094.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770205121.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770205148.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770205173.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770205199.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770205230.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770205259.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770205286.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770205310.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770205334.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770205357.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770205380.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770205400.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770205421.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770205444.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770205466.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770205486.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770205509.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770205531.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770205553.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770205575.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770205597.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770205621.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770205653.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770205683.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770205717.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770205751.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770627175.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770627215.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770627245.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770627279.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770627307.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770627334.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770627357.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770627380.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770627405.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770627428.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770627451.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770627474.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770627498.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770627522.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770627546.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770627570.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770627595.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770627619.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770627649.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770627679.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770627706.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770627740.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770627773.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770627805.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770627837.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770627871.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770627906.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770627940.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770627974.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770628009.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770628043.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770628076.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770628111.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770628145.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770628180.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770628214.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770628251.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770628285.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770628319.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770628352.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770628384.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770628415.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770628447.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770628477.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770628508.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770628539.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770628570.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770628602.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770628636.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770628691.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770628718.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770628747.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770628774.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770628802.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770628835.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770628869.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770628903.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770628937.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770628969.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770629001.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770629035.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770629071.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770629102.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770629134.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770629168.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770629202.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770629237.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770629271.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770629305.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770629341.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770629409.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770629438.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770629467.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770629498.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770629526.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770629553.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770629578.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770629600.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770629621.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770629644.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770629667.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770629687.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770629710.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770629734.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770629756.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770629775.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770629798.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770629818.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770629839.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770629860.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770629881.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770629905.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770629932.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770629958.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770629982.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770630007.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770630033.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770630059.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770630081.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770630106.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770630129.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770630152.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770630175.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770630198.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770630221.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770630242.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770630264.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770630295.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770630327.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770630356.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770630389.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770630417.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770630447.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770630476.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770630499.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770630522.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770630545.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522770630566.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781234129.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781234210.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781234233.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781234258.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781234280.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781234305.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781234327.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781234348.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781234371.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781234391.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781234414.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781234435.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781234455.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781234476.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781234497.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781234518.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781234540.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781234563.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781234591.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781234614.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781234642.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781234671.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781234701.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781234731.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781234763.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781234794.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781234827.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781234859.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781234893.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781234926.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781234960.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781234994.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781235027.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781235059.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781235092.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781235125.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781235157.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781235191.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781235226.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781235262.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781235299.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781235335.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781235368.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781235399.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781235431.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781235461.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781235494.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781235527.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781235560.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781235591.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781235622.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781235697.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781235729.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781235758.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781235786.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781235847.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781235882.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781235925.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781235961.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781235992.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781236023.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781236054.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781236084.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781236115.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781236148.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781236180.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781236212.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781236245.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781236276.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781236308.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781236341.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781236379.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781236450.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781236482.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781236515.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781236546.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781236581.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781236616.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781236649.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781236699.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781236741.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781236772.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781236805.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781236839.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781236874.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781236909.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781236942.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781236968.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781236999.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781237022.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781237049.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781237078.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781237101.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781237121.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781237142.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781237163.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781237184.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781237210.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781237236.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781237265.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781237292.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781237318.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781237347.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781237380.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781237404.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781237428.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781237450.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781237471.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781237491.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781237512.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781237531.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781237554.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781237583.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781237611.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781237641.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781237667.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781237692.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781237720.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781237748.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781237771.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781237797.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781237822.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781237843.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781237863.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781237892.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781237915.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781237939.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781237964.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781237985.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781238007.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781238028.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781238049.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781238071.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781238091.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781238111.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781238134.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781238154.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781238174.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781238194.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781238213.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781238232.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781238253.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781238274.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781238294.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781238314.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781238334.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781238358.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781238381.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781238402.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781238424.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781238446.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781238469.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781238491.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781238514.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781238538.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781238558.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781238581.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781238615.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781238647.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781238680.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781238703.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781238730.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781238756.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781238779.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781238804.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781238825.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781238848.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781238869.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781238888.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781238932.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781238955.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781238979.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781238999.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781239020.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781239039.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781239058.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781239079.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781239100.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781239121.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781239145.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781239167.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781239189.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781239212.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781239234.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781239256.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781239278.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781239300.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781239323.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781239375.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781239397.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781239419.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781239443.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781239467.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781239489.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781239511.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781239532.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781239551.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781239574.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781239599.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781239623.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781239646.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781239674.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781239697.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781239719.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781239744.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781239776.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781239806.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781239833.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781239864.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781239890.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781239919.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781239948.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781239973.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781239998.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781240019.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781240041.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781240060.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781240081.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781240102.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781240123.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781240146.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781240168.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781240190.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781240213.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781240236.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781240261.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781240282.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781240305.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781240328.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781240350.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781240373.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781240398.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781240420.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781240443.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781240464.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/16522781240488.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/media/16522770204377/16278287583842.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/media/16522770204377/16279991089821.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/media/16522770204377/16280003414804.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/media/16522770204377/16280006375113.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/media/16522770204377/16280007443780.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/media/16522770204377/16280018122455.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/media/16522770204377/16280019795429.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/media/16522770628636/16278287583842.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/media/16522770628636/16279991089821.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/media/16522770628636/16280003414804.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/media/16522770628636/16280006375113.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/media/16522770628636/16280007443780.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/media/16522770628636/16280018122455.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/media/16522770628636/16280019795429.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/media/16522770629341/16278287583842.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/media/16522770629341/16279991089821.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/media/16522770629341/16280003414804.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/media/16522770629341/16280006375113.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/media/16522770629341/16280007443780.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/media/16522770629341/16280018122455.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/media/16522770629341/16280019795429.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/media/16522781235622/16278287583842.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/media/16522781235622/16279991089821.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/media/16522781235622/16280003414804.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/media/16522781235622/16280006375113.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/media/16522781235622/16280007443780.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/media/16522781235622/16280018122455.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/media/16522781235622/16280019795429.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/media/16522781236379/16278287583842.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/media/16522781236379/16279991089821.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/media/16522781236379/16280003414804.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/media/16522781236379/16280006375113.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/media/16522781236379/16280007443780.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/media/16522781236379/16280018122455.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/media/16522781236379/16280019795429.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/media/16522781238888/16278287583842.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/media/16522781238888/16279991089821.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/media/16522781238888/16280003414804.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/media/16522781238888/16280006375113.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/media/16522781238888/16280007443780.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/media/16522781238888/16280018122455.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/media/16522781238888/16280019795429.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/media/16522781239323/16278287583842.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/media/16522781239323/16279991089821.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/media/16522781239323/16280003414804.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/media/16522781239323/16280006375113.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/media/16522781239323/16280007443780.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/media/16522781239323/16280018122455.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/docs/media/16522781239323/16280019795429.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/import的用法.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/mainlib.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/命名空间与作用域.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../编程总结/python/模块库/解决pip安装时速度慢的问题.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../表达/读书笔记/沟通的方法/总论点：怎样在竞聘中笑到最后.xmind" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/settings.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,10 +512,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/blogs/views.py">
+        <entry file="file://$PROJECT_DIR$/blogs/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+            <state relative-caret-position="390">
+              <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
               <folding>
                 <element signature="e#24#63#0" expanded="true" />
               </folding>
@@ -32,12 +524,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blogs/crawler.py">
+        <entry file="file://$PROJECT_DIR$/blogs/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="83" selection-start-line="83" selection-end-line="83" />
+            <state relative-caret-position="1100">
+              <caret line="142" column="35" lean-forward="true" selection-start-line="142" selection-start-column="35" selection-end-line="142" selection-end-column="35" />
               <folding>
-                <element signature="e#33#54#0" expanded="true" />
+                <element signature="e#24#63#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,7 +539,7 @@
         <entry file="file://$PROJECT_DIR$/blogs/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="10" column="34" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="34" />
+              <caret line="8" column="30" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="30" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -56,29 +548,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/addblog.html">
+        <entry file="file://$PROJECT_DIR$/blog/blogs/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+            <state relative-caret-position="569">
+              <caret line="47" column="24" lean-forward="true" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+              <folding>
+                <element signature="e#24#63#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/blog.html">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/blogs/crawler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1185">
+              <caret line="79" column="26" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
+              <folding>
+                <element signature="e#33#54#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/bloglist.html">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/blog/templates/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="61" lean-forward="true" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="57" column="51" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="51" />
+            <state relative-caret-position="535">
+              <caret line="60" column="35" lean-forward="true" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -102,10 +611,11 @@
       <find>name</find>
       <find>auth</find>
       <find>from django.contrib.auth.models import User</find>
-      <find>login</find>
       <find>utf</find>
       <find>dir</find>
       <find>url</find>
+      <find>login</find>
+      <find>User</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/blog</dir>
@@ -120,6 +630,7 @@
         <option value="$PROJECT_DIR$/blogs/models.py" />
         <option value="$PROJECT_DIR$/blog/blogs/models.py" />
         <option value="$PROJECT_DIR$/blogs/crawler.py" />
+        <option value="$PROJECT_DIR$/blog/settings.py" />
       </list>
     </option>
   </component>
@@ -145,25 +656,6 @@
               <item name="blog项目" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog项目" type="462c0819:PsiDirectoryNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog项目" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog项目" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="blogs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog项目" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog项目" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="blogs" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog项目" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog项目" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -252,16 +744,6 @@
     <entry file="file://$PROJECT_DIR$/blog/blog/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="38" />
-          <folding>
-            <element signature="e#22#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/blogs/crawler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -295,55 +777,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blogs/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="52" lean-forward="true" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
-          <folding>
-            <element signature="e#24#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogs/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="88" column="35" selection-start-line="88" selection-start-column="35" selection-end-line="88" selection-end-column="35" />
-          <folding>
-            <element signature="e#24#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/blogs/migrations/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/blogs/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/blogs/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-          <folding>
-            <element signature="e#24#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogs/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/addblog.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -358,13 +793,6 @@
     <entry file="file://$PROJECT_DIR$/templates/bloglist.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" column="51" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/blogs/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -377,10 +805,84 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blogs/crawler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        <state relative-caret-position="1185">
+          <caret line="79" column="26" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
           <folding>
             <element signature="e#33#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="61" lean-forward="true" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/blogs/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="47" column="24" lean-forward="true" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/blogs/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="39" />
+          <folding>
+            <element signature="e#22#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogs/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogs/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="60" column="35" lean-forward="true" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogs/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="142" column="35" lean-forward="true" selection-start-line="142" selection-start-column="35" selection-end-line="142" selection-end-column="35" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
           </folding>
         </state>
       </provider>
