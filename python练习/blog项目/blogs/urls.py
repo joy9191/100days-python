@@ -2,7 +2,6 @@ from django.conf.urls import include,url
 import blogs.views as views
 from django.contrib.auth import views as auth_views
 
-# 可用项目
 urlpatterns = [
     # url(r'^index', views.index),
     url(r'^list', views.get_list),

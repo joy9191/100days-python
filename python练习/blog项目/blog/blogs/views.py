@@ -12,7 +12,7 @@ from django.core.paginator import Paginator,EmptyPage,PageNotAnInteger
 
 # Create your views here.
 
-@login_required
+# @login_required
 def get_list(request,pindex=1):
     print pindex
     data=BlogMsg.objects.all().values('id','title','content')
