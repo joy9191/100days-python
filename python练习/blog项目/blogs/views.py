@@ -11,7 +11,7 @@ import json
 
 # Create your views here.
 
-@login_required
+# @login_required
 def get_list(request):
     data=BlogMsg.objects.all().values('id','title','content')
     return render(request, "bloglist.html", {"data":data})
