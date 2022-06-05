@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup
 import requests
 import json
 import time
+from django.views.decorators.csrf import csrf_exempt
 
 def addCnbetaDb():
     html = urllib.urlopen('https://www.cnbeta.com/')   # 抓取网页的源码
@@ -27,7 +28,7 @@ def addCnbetaDb():
     html.close()
 
     db = MySQLdb.connect("127.0.0.1", "root", "", "test", charset='utf8' )
-    print '连接数据库成功'
+    print('连接数据库成功')
     conn = db.cursor()
     
     url = 'http://47.98.182.254/crawler'
@@ -82,14 +83,15 @@ def addCnbetaDb():
     conn.close()
     db.close()
 
-def addCnbetaApi():
+@csrf_exempt
+def addCnbetaApi(request):
     # headers = (
     #     'User-Agent', 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36')
     # # html = urllib.urlopen('https://www.cnbeta.com/')   # 抓取网页的源码
     # opener = urllib2.build_opener()
     # opener.addheaders = [headers]
     res = readHtml('https://www.cnbeta.com/').read() # 读取文件
-    print res
+    print(res)
     _res = BeautifulSoup(res, "html.parser").find_all('a')
     hrefList = []
     for text in _res:
@@ -105,9 +107,10 @@ def addCnbetaApi():
     hrefList = set(hrefList)  # set中的元素是无序的，并且重复元素在set中自动被过滤
     # html.close()
     
-    url = 'http://192.168.31.181/crawler'
+    # 调用crawler接口
+    url = 'http://192.168.31.176:8000/crawler'
     for hrefs in hrefList:
-    	print hrefs
+    	print(hrefs)
         # html = urllib.urlopen(hrefs)
         r = readHtml(hrefs).read()
         bs = BeautifulSoup(r, "html.parser")
@@ -133,6 +136,8 @@ def addCnbetaApi():
         }
         response = requests.post(url, data=data)
         print response.status_code
+    
+    return redirect('/list')
 
 
 def readHtml(url):

@@ -1,5 +1,6 @@
 from django.conf.urls import include,url
 import blogs.views as views
+import blogs.crawler as crawler
 from django.contrib.auth import views as auth_views
 
 urlpatterns = [
@@ -12,4 +13,5 @@ urlpatterns = [
     url(r'^delblog', views.del_blog),
     url(r'^editblog', views.edit_blog),
     url(r'^search', views.search),
+    url(r'^more', crawler.addCnbetaApi)
 ]

@@ -16,11 +16,11 @@ def get_list(request):
     data=BlogMsg.objects.all().values('id','title','content')
     return render(request, "bloglist.html", {"data":data})
 
-@login_required
+# @login_required
 def get_blog(request):
     bid = request.GET.get('id')
     data=BlogMsg.objects.get(id=bid)
-    print data
+    print(data)
     return render(request, "blog.html",{"data":data})
 
 @csrf_exempt    
@@ -32,10 +32,10 @@ def add_blog(request):
         content = request.POST.get('content')
         if title and content:
             b = BlogMsg.objects.create(title=title, content=content)
-            print '提交成功'
+            print('提交成功')
             return redirect('/list')
         else:
-            print '空'
+            print('空')
             msg = '文章标题内容不能为空'
             return render(request, 'addblog.html',{'msg':msg})
 
@@ -50,7 +50,7 @@ def edit_blog(request):
         title = request.POST.get('title')
         content = request.POST.get('content')
         d=BlogMsg.objects.filter(id=bid).update(title=title, content=content)
-        print '修改成功'
+        print('修改成功')
         return redirect('/list')
 
 @csrf_exempt
@@ -58,7 +58,7 @@ def del_blog(request):
     if request.method == 'POST':
         bid = request.POST.get('bid')
         d = BlogMsg.objects.filter(id=bid).delete()
-        print d
+        print(d)
         return redirect('/list')
         # if d:
         #     msg = '删除成功'
@@ -71,7 +71,7 @@ def search(request):
     q = request.GET.get('q')
     if q:
         result_list = BlogMsg.objects.filter(title__icontains=q)
-        print result_list
+        print(result_list)
         return render(request, 'search.html',{'result_list':result_list})
     else:
         msg = '请输入关键词'
@@ -83,12 +83,12 @@ def crawler(request):
         content = request.POST.get('content')
         date = request.POST.get('date')
         author = request.POST.get('author')
-        print title
-        print content
+        print(title)
+        print(content)
         if title and content:
             b = BlogMsg.objects.create(title=title, content=content, date=date, author=author)
             b.save()
-            print '提交成功'
+            print('提交成功')
             response_data = str({'msg':'success'})
             return HttpResponse(response_data)
         else:

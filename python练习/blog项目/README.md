@@ -17,3 +17,7 @@
 
 
 后面我又基于/blog项目/blog/创建了一个项目，叫blog，在/blog项目/blog/blog中创建了名为blogs的应用
+
+可用的应该是blog项目的blogs应用
+
+项目中会有一个manage.py与应用目录对应

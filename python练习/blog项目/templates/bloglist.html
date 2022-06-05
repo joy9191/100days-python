@@ -17,6 +17,7 @@
 	<body>
 		<h1>我的布罗格</h1>
 		<input type="button" value="新增文章" onclick='location.href=("/addblog")'/>
+		<input type="button" value="一键获取更多" onclick='location.href=("/more")'/>
 		<form method="get" action="/search">
 			{% csrf_token %}
 			<input type="search" placeholder="搜索" name="q" required>
