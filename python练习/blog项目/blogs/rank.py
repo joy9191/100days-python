@@ -6,7 +6,6 @@ from django.core.cache import cache
 def get_top_n_blogs():
     cache.set('i','61', 60*60)
     c = cache.get('i')
-    print(c)
     return c
 
 def record_click():
