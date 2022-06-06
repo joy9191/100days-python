@@ -8,6 +8,7 @@ from models import BlogMsg
 from django.views.decorators.csrf import csrf_exempt
 from django.contrib.auth.decorators import login_required
 import json
+import rank
 
 # Create your views here.
 
@@ -20,8 +21,9 @@ def get_list(request):
 def get_blog(request):
     bid = request.GET.get('id')
     data=BlogMsg.objects.get(id=bid)
-    print(data)
-    return render(request, "blog.html",{"data":data})
+    read_count=rank.get_top_n_blogs
+    print(read_count)
+    return render(request, "blog.html",{"data":data,"read_count":read_count})
 
 @csrf_exempt    
 def add_blog(request):
