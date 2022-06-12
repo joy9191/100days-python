@@ -9,20 +9,22 @@ from django.views.decorators.csrf import csrf_exempt
 from django.contrib.auth.decorators import login_required
 import json
 import rank
+from django.core.cache import cache
 
 # Create your views here.
 
 # @login_required
 def get_list(request):
-    data=BlogMsg.objects.all().values('id','title','content')
+    data=BlogMsg.objects.all().values('id','title')
+    print(data)
     return render(request, "bloglist.html", {"data":data})
 
 # @login_required
 def get_blog(request):
     bid = request.GET.get('id')
     data=BlogMsg.objects.get(id=bid)
-    read_count=rank.get_top_n_blogs
-    print(read_count)
+    # read_count=cache.incr(bid)
+    read_count = rank.record_click(bid)
     return render(request, "blog.html",{"data":data,"read_count":read_count})
 
 @csrf_exempt    

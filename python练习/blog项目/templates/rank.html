@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>排行榜</title>
+        <style >
+			li{list-style:none;}
+			.clearfix:after{
+				content: "";
+				display: table;
+				clear: both;
+			}
+			.readcount{float:left;margin:0 10px;}
+			.blogtitle{float:left;}
+		</style>
+	</head>
+	<body>
+		<p>排行榜</p>
+        <ul>
+            {% for i in data %}
+                <li class="clearfix">
+                    <a href="/blog?id={{i.bid}}" class="blogtitle">{{i.title}}</a>
+                    <p class="readcount">阅读量：{{i.read_count}}</p>
+                </li>
+            {% endfor %}
+        </ul>
+	</body>
+</html>
